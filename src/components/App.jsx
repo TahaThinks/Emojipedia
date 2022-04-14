@@ -9,7 +9,9 @@ function App() {
     <div>
       <Heading />
 
-      <Card />
+      <dl className="dictionary">
+        <Card />
+      </dl>
     </div>
   );
 }

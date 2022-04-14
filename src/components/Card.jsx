@@ -8,40 +8,31 @@ function Card() {
       <div className="term">
         <dt>
           <span className="emoji" role="img" aria-label="Tense Biceps">
-            💪
+            {emojipedia[0].emoji}
           </span>
-          <span>Tense Biceps</span>
+          <span>{emojipedia[0].name}</span>
         </dt>
-        <dd>
-          “You can do that!” or “I feel strong!” Arm with tense biceps. Also
-          used in connection with doing sports, e.g. at the gym.
-        </dd>
+        <dd>{emojipedia[0].meaning}</dd>
       </div>
+
       <div className="term">
         <dt>
           <span className="emoji" role="img" aria-label="Tense Biceps">
-            🙏
+            {emojipedia[1].emoji}
           </span>
-          <span>Person With Folded Hands</span>
+          <span>{emojipedia[1].name}</span>
         </dt>
-        <dd>
-          Two hands pressed together. Is currently very introverted, saying a
-          prayer, or hoping for enlightenment. Is also used as a “high five” or
-          to say thank you.
-        </dd>
+        <dd>{emojipedia[1].meaning}</dd>
       </div>
+
       <div className="term">
         <dt>
           <span className="emoji" role="img" aria-label="Tense Biceps">
-            🤣
+            {emojipedia[2].emoji}
           </span>
-          <span>Rolling On The Floor, Laughing</span>
+          <span>{emojipedia[2].name}</span>
         </dt>
-        <dd>
-          This is funny! A smiley face, rolling on the floor, laughing. The face
-          is laughing boundlessly. The emoji version of “rofl“. Stands for
-          „rolling on the floor, laughing“.
-        </dd>
+        <dd>{emojipedia[2].meaning}</dd>
       </div>
     </dl>
   );
