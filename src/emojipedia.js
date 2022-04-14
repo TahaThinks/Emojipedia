@@ -21,3 +21,6 @@ const emojipedia = [
       "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
   }
 ];
+
+// Export the emojipedia object to be used in React Components
+export default emojipedia;
